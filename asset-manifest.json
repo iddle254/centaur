@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/centaur/static/css/main.e3e8ea01.css",
-    "main.js": "/centaur/static/js/main.daa2515b.js",
+    "main.js": "/centaur/static/js/main.ecb96aad.js",
     "static/js/377.9b2ab7e7.chunk.js": "/centaur/static/js/377.9b2ab7e7.chunk.js",
     "static/media/Aki-wewe.mp4": "/centaur/static/media/Aki-wewe.295e05da1d5ffeee7f7b.mp4",
     "static/media/cover.jpg": "/centaur/static/media/cover.322a6cf409e7c9ade3c9.jpg",
@@ -11,11 +11,11 @@
     "static/media/logo.svg": "/centaur/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/centaur/index.html",
     "main.e3e8ea01.css.map": "/centaur/static/css/main.e3e8ea01.css.map",
-    "main.daa2515b.js.map": "/centaur/static/js/main.daa2515b.js.map",
+    "main.ecb96aad.js.map": "/centaur/static/js/main.ecb96aad.js.map",
     "377.9b2ab7e7.chunk.js.map": "/centaur/static/js/377.9b2ab7e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3e8ea01.css",
-    "static/js/main.daa2515b.js"
+    "static/js/main.ecb96aad.js"
   ]
 }

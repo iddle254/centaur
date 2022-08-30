@@ -7,8 +7,8 @@ https://dub01pap002files.storage.live.com/y4mCtLX3UHx3SYgcYr2sDrtoB6SuwP4Z9yyjMR
 
 ### Clone the project
 
-> In your terminal run, `git clone git@github.com:iddle254/centaur.git](git@github.com:iddle254/centaur.git ) `
-> This command won't work if you have'nt configured your git to work with SSH. If you get an error, `git clone https://github.com/iddle254/centaur.git](https://github.com/iddle254/centaur.git) `
+> In your terminal run, `git clone git@github.com:iddle254/centaur.git `
+> This command won't work if you have not configured your git to work with SSH. If you get an error, `git clone https://github.com/iddle254/centaur.git `
 
 ### Install dependencies
 
@@ -17,6 +17,10 @@ https://dub01pap002files.storage.live.com/y4mCtLX3UHx3SYgcYr2sDrtoB6SuwP4Z9yyjMR
 ### Run the app
 
 > `npm start`
+
+### Demo
+
+> You can view the live site here ~ https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
 ### Typical usecase
 

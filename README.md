@@ -2,8 +2,7 @@
 
 Centaur is a landing page I made using React and Bootstrap.
 
-![centaur.gif](https://dub01pap002files.storage.live.com/y4mCtLX3UHx3SYgcYr2sDrtoB6SuwP4Z9yyjMREkeRs46XRzkIcLiBlBFtprTfTXW0-RdLGSVK-jqf_tyiK5CDHy4XBxOC5XzXSyQFjvDd8uVscpNAowRjgetkLzPp35bca_81O1V6i1CfKrftWXlq-1L-_A8uNG8PwaBfnNceJ7VCBX4fFAZ_DJ6TMkwpHS5wK?width=600&height=338&cropmode=none)
-https://dub01pap002files.storage.live.com/y4mCtLX3UHx3SYgcYr2sDrtoB6SuwP4Z9yyjMREkeRs46XRzkIcLiBlBFtprTfTXW0-RdLGSVK-jqf_tyiK5CDHy4XBxOC5XzXSyQFjvDd8uVscpNAowRjgetkLzPp35bca_81O1V6i1CfKrftWXlq-1L-_A8uNG8PwaBfnNceJ7VCBX4fFAZ_DJ6TMkwpHS5wK?width=600&height=338&cropmode=none)
+![centaur.gif](./src/assets/banner.gif)
 
 ### Clone the project
 

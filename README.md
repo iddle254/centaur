@@ -19,7 +19,7 @@ Centaur is a landing page I made using React and Bootstrap.
 
 ### Demo
 
-> You can view the live site here ~ https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+> You can view the live site here ~ https://iddle254.github.io/centaur/
 
 ### Typical usecase
 

@@ -1,39 +1,39 @@
-FROM node:16.12.0
+# FROM node:16.12.0
 
-# Create app directory
-RUN mkdir -p /usr/src/centaur
-WORKDIR /usr/src/centaur
+# # Create app directory
+# RUN mkdir -p /usr/src/centaur
+# WORKDIR /usr/src/centaur
 
-# Install app dependencies
-COPY package.json /usr/src/centaur
-RUN npm install
+# # Install app dependencies
+# COPY package.json /usr/src/centaur
+# RUN npm install
 
-# Bundle app source
-COPY . /usr/src/centaur
+# # Bundle app source
+# COPY . /usr/src/centaur
 
-# Build arguments
-ARG NODE_VERSION=16.12.0
+# # Build arguments
+# ARG NODE_VERSION=16.12.0
 
-# Environment
-ENV NODE_VERSION $NODE_VERSION
+# # Environment
+# ENV NODE_VERSION $NODE_VERSION
 
-# # pull official base image
-# FROM node:13.12.0-alpine
+# pull official base image
+FROM node:13.12.0-alpine
 
-# # set working directory
-# WORKDIR /app
+# set working directory
+WORKDIR /app
 
-# # add `/app/node_modules/.bin` to $PATH
-# ENV PATH /app/node_modules/.bin:$PATH
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
 
-# # install app dependencies
-# COPY package.json ./
-# COPY package-lock.json ./
-# RUN npm install --silent
-# RUN npm install react-scripts@3.4.1 -g --silent
+# install app dependencies
+COPY package.json ./
+COPY package-lock.json ./
+RUN npm install --silent
+RUN npm install react-scripts@3.4.1 -g --silent
 
-# # add app
-# COPY . ./
+# add app
+COPY . ./
 
-# # start app
-# CMD ["npm", "start"]
+# start app
+CMD ["npm", "start"]

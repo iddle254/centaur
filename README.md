@@ -26,6 +26,13 @@ Centaur is a landing page made using React and Bootstrap(Reactstrap).
 1. Make sure you have docker installed and running on your computer
 2. Run `docker-compose up` ( you may have to run `docker-compose up --build` for the first setup phase)
 
+## **Run the tests**
+
+1. Run `npm run test` ( `npm test` should also work)
+
+   > ![Landing-page.jpg](./public/home/coverage.PNG)
+   > Coverage is decent but can still be improved.
+
 # Issues
 
 ## **Routing issues(react-router-dom)**

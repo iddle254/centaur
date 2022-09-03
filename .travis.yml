@@ -1,6 +1,6 @@
-language: node_js
-node_js:
-  - node
+# language: node_js
+# node_js:
+#   - node
 # cache:
 #   directories:
 #     - node_modules
@@ -8,3 +8,20 @@ node_js:
 # services: docker
 # script:
 #   - npm run test
+
+language: node_js
+node_js:
+  - 'stable'
+cache:
+  directories:
+    - node_modules
+script:
+  - npm test
+  - npm run build || true
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: build
+  on:
+    branch: master

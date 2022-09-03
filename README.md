@@ -1,4 +1,4 @@
-## Centaur
+## Centaur &emsp; [![Build Project](https://github.com/zero-to-mastery/ZtM-Job-Board/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/zero-to-mastery/ZtM-Job-Board/actions/workflows/build.yml) [![Build Status](https://travis-ci.org/trekhleb/javascript-algorithms.svg?branch=master)](https://travis-ci.org/trekhleb/javascript-algorithms) [![codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/trekhleb/javascript-algorithms)
 
 Centaur is a landing page made using React and Bootstrap(Reactstrap).
 
@@ -48,12 +48,8 @@ Centaur is a landing page made using React and Bootstrap(Reactstrap).
 ### Typical usecase
 
 - Company landing page.
-- ![Landing-page.jpg](./public/home/Capture.PNG)
+  ![Landing-page.jpg](./public/home/Capture.PNG)
 - Ecommerce
-- ![Landing-page.jpg](./public/home/Capture2.PNG)
+  ![Landing-page.jpg](./public/home/Capture2.PNG)
 - Marketing template
-- ![Landing-page.jpg](./public/home/Capture4.PNG)
-
-![Landing-page.jpg](./public/home/Capture3.PNG)
-
-![Landing-page.jpg](./public/home/Capture5.PNG)
+  ![Landing-page.jpg](./public/home/Capture4.PNG)

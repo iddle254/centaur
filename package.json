@@ -36,13 +36,20 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "lint": "eslint ./src/*",
+    "codecov": "codecov",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
+    "ci": "npm run lint && npm run test -- --coverage",
     "eject": "react-scripts eject"
   },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",

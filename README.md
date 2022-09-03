@@ -1,4 +1,4 @@
-## Centaur &emsp; [![Build Project](https://github.com/zero-to-mastery/ZtM-Job-Board/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/zero-to-mastery/ZtM-Job-Board/actions/workflows/build.yml) [![Build Status](https://travis-ci.org/trekhleb/javascript-algorithms.svg?branch=master)](https://travis-ci.org/trekhleb/javascript-algorithms) [![codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/trekhleb/javascript-algorithms)
+## Centaur &emsp; [![Build Status](https://app.travis-ci.com/iddle254/centaur.svg?branch=main)](https://app.travis-ci.com/iddle254/centaur)
 
 Centaur is a landing page made using React and Bootstrap(Reactstrap).
 

@@ -1,14 +1,3 @@
-# language: node_js
-# node_js:
-#   - node
-# cache:
-#   directories:
-#     - node_modules
-# sudo: required
-# services: docker
-# script:
-#   - npm run test
-
 language: node_js
 node_js:
   - 'stable'
@@ -25,3 +14,13 @@ deploy:
   local_dir: build
   on:
     branch: master
+# language: node_js
+# node_js:
+#   - node
+# cache:
+#   directories:
+#     - node_modules
+# sudo: required
+# services: docker
+# script:
+#   - npm run test
